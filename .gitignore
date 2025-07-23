@@ -1,0 +1,66 @@
+Unity generated files
+
+/[Ll]ibrary/ [Tt]emp/ [Oo]bj/ [Bb]uild/ [Bb]uilds/ Assets/AssetStoreTools*
+
+Unity User Settings and Local Overrides
+
+UserSettings/ *.local.config *.localoverride
+
+Unity Package Manager
+
+Packages/
+
+Visual Studio / MonoDevelop generated
+
+ExportedObj/ *.csproj *.unityproj *.sln *.suo *.tmp *.user *.userprefs *.pidb *.booproj *.svd *.pdb *.mdb *.opendb *.VC.db
+
+Unity3D generated meta files
+
+*.pidb.meta *.pdb.meta *.mdb.meta
+
+Unity3D System files
+
+*.DS_Store *.apk *.aab *.unitypackage *.app
+
+Ignore Unity crash reports
+
+sysinfo.txt crashlytics/
+
+Ignore Unity Analytics
+
+Analytics/
+
+Ignore Visual Studio Code settings
+
+.vscode/
+
+Ignore JetBrains Rider files
+
+.idea/ *.iml
+
+Ignore macOS specific files
+
+.DS_Store Icon?
+
+Ignore Windows specific files
+
+Thumbs.db ehthumbs.db Desktop.ini
+
+Ignore backup files
+
+*~.ncb *.bak *.swp
+
+Ignore logs
+
+*.log Logs/ logfile *.log.meta
+
+Ignore build output
+
+/[Bb]in/ /[Dd]ist/
+
+# Unity generated files
+/Library/
+/Temp/
+/obj/
+/Logs/
+/UserSettings/

@@ -1,0 +1,367 @@
+fileFormatVersion: 2
+guid: 3f6374059c18b9444822d531d731d62f
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 36a00f6683118ba49986ac1078468a9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: fb9fef5c2af77844eadc0c88e80b0101, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 077bfc36eebecd746b9466398dc49d19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: e9a8a542737b84440adf8dcbe43555d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: a2aa3646556837f49a6245945933ad52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: e765b53ffe909634b836aaf6c5cd3f0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: 505343143564b0844b4a8fb4b2d4f43d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyes
+    second: {fileID: 2100000, guid: 422eaa7bc2512ba428a3992387192019, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: brown_leather_albedo_2k
+    second: {fileID: 2800000, guid: cc85862d327c32a4e9992818f131ed6e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: denmin_fabric_02_diff_2k
+    second: {fileID: 2800000, guid: 0e57bc09caebff941a066266b1ff94b9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: fabric_pattern_05_rough_2k
+    second: {fileID: 2800000, guid: 97531f318fb7f534b86f2d7dc47bd9a7, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature.002|ArmatureAction
+      takeName: Armature.002|ArmatureAction
+      internalID: -3997514183246978980
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.002
+        weight: 1
+      - path: Armature.002/IK.TargetLeg.L
+        weight: 1
+      - path: Armature.002/IK.TargetLeg.L/IK.TargetLeg.L_end
+        weight: 1
+      - path: Armature.002/IK.TargetLeg.R
+        weight: 1
+      - path: Armature.002/IK.TargetLeg.R/IK.TargetLeg.R_end
+        weight: 1
+      - path: Armature.002/IK_legb.L
+        weight: 1
+      - path: Armature.002/IK_legb.L/IK_legb.L_end
+        weight: 1
+      - path: Armature.002/IK_legb.R
+        weight: 1
+      - path: Armature.002/IK_legb.R/IK_legb.R_end
+        weight: 1
+      - path: 'Armature.002/Root '
+        weight: 1
+      - path: Armature.002/Root /Bone
+        weight: 1
+      - path: Armature.002/Root /Bone/lowerLeg.L
+        weight: 1
+      - path: Armature.002/Root /Bone/lowerLeg.L/foot.L
+        weight: 1
+      - path: Armature.002/Root /Bone/lowerLeg.L/foot.L/foot.L_end
+        weight: 1
+      - path: Armature.002/Root /Bone/lowerLeg.R
+        weight: 1
+      - path: Armature.002/Root /Bone/lowerLeg.R/foot.R
+        weight: 1
+      - path: Armature.002/Root /Bone/lowerLeg.R/foot.R/foot.R_end
+        weight: 1
+      - path: Armature.002/Root /lowerLeg.R.001
+        weight: 1
+      - path: Armature.002/Root /lowerLeg.R.001/lowerLeg.R.001_end
+        weight: 1
+      - path: Armature.002/Root /Spine-1
+        weight: 1
+      - path: Armature.002/Root /Spine-1/Spine-2
+        weight: 1
+      - path: Armature.002/Root /Spine-1/Spine-2/neck
+        weight: 1
+      - path: Armature.002/Root /Spine-1/Spine-2/neck/head
+        weight: 1
+      - path: Armature.002/Root /Spine-1/Spine-2/neck/head/neck.002
+        weight: 1
+      - path: Armature.002/Root /Spine-1/Spine-2/neck/head/neck.002/neck.002_end
+        weight: 1
+      - path: Armature.002/Root /Spine-1/Spine-2/shoulder.left
+        weight: 1
+      - path: Armature.002/Root /Spine-1/Spine-2/shoulder.left/upperArm.left
+        weight: 1
+      - path: Armature.002/Root /Spine-1/Spine-2/shoulder.left/upperArm.left/lowewrArm.L
+        weight: 1
+      - path: Armature.002/Root /Spine-1/Spine-2/shoulder.left/upperArm.left/lowewrArm.L/lowewrArm2.L
+        weight: 1
+      - path: Armature.002/Root /Spine-1/Spine-2/shoulder.left/upperArm.left/lowewrArm.L/lowewrArm2.L/finger.L
+        weight: 1
+      - path: Armature.002/Root /Spine-1/Spine-2/shoulder.left/upperArm.left/lowewrArm.L/lowewrArm2.L/finger.L/finger.L_end
+        weight: 1
+      - path: Armature.002/Root /Spine-1/Spine-2/shoulder.left/upperArm.left/lowewrArm.L/thumh.L
+        weight: 1
+      - path: Armature.002/Root /Spine-1/Spine-2/shoulder.left/upperArm.left/lowewrArm.L/thumh.L/thumh.L_end
+        weight: 1
+      - path: Armature.002/Root /Spine-1/Spine-2/shoulder.right
+        weight: 1
+      - path: Armature.002/Root /Spine-1/Spine-2/shoulder.right/upperArm.right
+        weight: 1
+      - path: Armature.002/Root /Spine-1/Spine-2/shoulder.right/upperArm.right/lowewrArm.R
+        weight: 1
+      - path: Armature.002/Root /Spine-1/Spine-2/shoulder.right/upperArm.right/lowewrArm.R/lowewrArm2.R
+        weight: 1
+      - path: Armature.002/Root /Spine-1/Spine-2/shoulder.right/upperArm.right/lowewrArm.R/lowewrArm2.R/finger.R
+        weight: 1
+      - path: Armature.002/Root /Spine-1/Spine-2/shoulder.right/upperArm.right/lowewrArm.R/lowewrArm2.R/finger.R/finger.R_end
+        weight: 1
+      - path: Armature.002/Root /Spine-1/Spine-2/shoulder.right/upperArm.right/lowewrArm.R/thumh.R
+        weight: 1
+      - path: Armature.002/Root /Spine-1/Spine-2/shoulder.right/upperArm.right/lowewrArm.R/thumh.R/thumh.R_end
+        weight: 1
+      - path: Armature.003
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Sphere.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.002|ArmatureAction.001
+      takeName: Armature.002|ArmatureAction.001
+      internalID: 8368265636151829555
+      firstFrame: 0
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.002|Sphere.001Action
+      takeName: Armature.002|Sphere.001Action
+      internalID: 1060571434921072575
+      firstFrame: 0
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sphere.001|Sphere.001Action
+      takeName: Sphere.001|Sphere.001Action
+      internalID: -3036527314473485615
+      firstFrame: 0
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.3
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.3
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
